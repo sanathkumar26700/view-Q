@@ -1,0 +1,28 @@
+.logo {
+    display: flex;
+    flex: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo--title {
+    font-size: clamp(4rem, 8vw - 1rem, 6rem);
+    color: whitesmoke;
+    font-weight: 700;
+}
+
+.logo--title-black {
+    color: var(--logo-toggle);
+}
+
+.dot {
+    color: var(--primary-color);
+    font-weight: 900;
+}
+
+.logo--img {
+    padding-top: 1rem;
+    width: 2.3rem;
+    height: 3rem;
+    display: inline;
+}
