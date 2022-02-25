@@ -1,0 +1,17 @@
+@import './CSS/layout/logo.css';
+@import './CSS/layout/navbar-quiz.css';
+@import './CSS/layout/social-links.css';
+@import './CSS/layout/footer.css';
+@import './CSS/utilities/utilities.css';
+@import './pages/quiz-list/quiz-list.css';
+@import './pages/quiz-page/quiz-page.css';
+@import './pages/result-page/result-page.css';
+@import './pages/rules-page/rules-page.css';
+
+/*----------------------------------------------------------------------------------*/
+
+html,
+body {
+    background-color: var(--background-color);
+    color: var(--foreground-color);
+}
