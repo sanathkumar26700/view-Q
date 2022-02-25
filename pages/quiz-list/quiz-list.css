@@ -1,0 +1,33 @@
+.page--heading {
+    width: 75%;
+    margin: auto;
+    font-size: 2.5rem;
+    padding: 2rem;
+    font-size: 4rem;
+    color: var(--primary-color);
+    font-weight: 400;
+}
+
+.quiz-list__container {
+    width: 75%;
+    height: 100%;
+    margin: auto;
+}
+
+.quiz-list__section {
+    padding: 1.5rem;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+}
+
+.quiz-list__container .card {
+    max-width: 20rem;
+    min-height: 25rem;
+    overflow: hidden;
+}
+
+.quiz-list__section .vertical .img {
+    height: 15rem;
+    width: 100%;
+}
